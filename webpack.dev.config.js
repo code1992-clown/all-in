@@ -35,7 +35,7 @@ module.exports = {
     },
     output: {
         filename: '[name].js',
-        path: path.resolve(__dirname, 'public'),
+        path: path.resolve(__dirname, 'docs'),
         clean: true, // 在生成文件之前清空 output 目录
     }
 }
