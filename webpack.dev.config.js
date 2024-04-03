@@ -26,7 +26,7 @@ module.exports = {
     output: {
         filename: '[name].js',
         path: path.resolve(__dirname, 'docs'),
-        assetModuleFilename: 'images/[hash][ext][query]',
+        assetModuleFilename: 'static/imgs/[hash][ext][query]',
         clean: true, // 在生成文件之前清空 output 目录
     }
 }
